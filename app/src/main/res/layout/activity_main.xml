@@ -15,8 +15,7 @@
             android:id="@+id/fragmentContainer"
             android:layout_width="0dp"
             android:layout_weight="0.5"
-            android:layout_height="400dp"
-            android:name="com.kitoko.fragments.FragmentOne"/>
+            android:layout_height="400dp"/>
 
         <androidx.fragment.app.FragmentContainerView
             android:id="@+id/fragContainer"
@@ -32,6 +31,7 @@
 <Button
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    android:id="@+id/clickMeBtn"
     android:text="Click me"
     android:layout_gravity="center_horizontal"/>
 </LinearLayout>
