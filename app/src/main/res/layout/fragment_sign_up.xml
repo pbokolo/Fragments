@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    tools:context=".SignUpFragment">
+
+
+    <EditText
+        android:id="@+id/nomTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Nom"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/prenomTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Prenom"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/emailTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/mdpTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberPassword"
+        android:hint="Mot de passe"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/mdp2Txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberPassword"
+        android:hint="Retapper le mot de passe"/>
+
+    <Button
+        android:id="@+id/nvCompteBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Creer" />
+</LinearLayout>
